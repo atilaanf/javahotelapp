@@ -1,0 +1,36 @@
+#btsu {
+    -fx-background-color: linear-gradient(to bottom right, #2E3192, #1BFFFF);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-border-radius: 70;
+    -fx-background-radius: 70;
+}
+
+#btsu:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}
+#btsi {
+    -fx-background-color: linear-gradient(to bottom right, #ff416c, #ff4b2b);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-border-radius: 70;
+    -fx-background-radius: 70;
+}
+
+
+
+#btsi:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,124 @@
+/* styles.css */
+
+.mainlay {
+    -fx-background-color: #f7f8fc;
+}
+
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+}
+
+.sidebar .label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-margin: 0 0 20 0;
+  
+    
+}
+
+
+.header {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+}
+
+#ro{
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.fonte{
+    
+    
+    
+}
+
+
+
+
+
+.dbon{
+    
+    -fx-background-color:#A9A9A9;
+     -fx-padding: 10px;
+      -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+     -fx-border-width: 1px;
+}
+
+
+#cibtn {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-weight: normal; /* No direct equivalent for '0', using normal */
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #96cc00 0%, #c500cc 100%);
+    -fx-padding: 10px 30px;
+    -fx-border-color: #0066cc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-effect: none; /* JavaFX uses -fx-effect for shadows */
+    -fx-cursor: hand; /* JavaFX uses 'hand' instead of 'pointer' */
+    -fx-alignment: center;
+    -fx-transition: all 1000ms ease-in-out; /* JavaFX doesn't support this directly, use Java for complex animations */
+    -fx-translate-y: 0;
+    -fx-background-insets: 0; /* To ensure the gradient and border align correctly */
+}
+
+#cibtn:hover {
+    -fx-padding: 10px 30px;
+    -fx-translate-y: -0px; /* No visual change here, translateY is set to 0 */
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #96cc00 0%, #c500cc 100%);
+    -fx-text-fill: #0066cc;
+    -fx-border-color: #0066cc;
+}
+#cobtn {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-weight: normal; /* No direct equivalent for '0', using normal */
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #96cc00 0%, #c500cc 100%);
+    -fx-padding: 10px 30px;
+    -fx-border-color: #0066cc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-effect: none; /* JavaFX uses -fx-effect for shadows */
+    -fx-cursor: hand; /* JavaFX uses 'hand' instead of 'pointer' */
+    -fx-alignment: center;
+    -fx-transition: all 1000ms ease-in-out; /* JavaFX doesn't support this directly, use Java for complex animations */
+    -fx-translate-y: 0;
+    -fx-background-insets: 0; /* To ensure the gradient and border align correctly */
+}
+
+#cobtn:hover {
+    -fx-padding: 10px 30px;
+    -fx-translate-y: -0px; /* No visual change here, translateY is set to 0 */
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #96cc00 0%, #c500cc 100%);
+    -fx-text-fill: #0066cc;
+    -fx-border-color: #0066cc;
+}
+
+
+.resizable-image {
+    -fx-fit-width: 20px;   /* Set the width of the image */
+    -fx-fit-height: 20px;  /* Set the height of the image */
+}
+
+
+
+
+
+
